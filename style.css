@@ -1,0 +1,237 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+.navbar {
+    width: 80%;
+    margin: 10px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar button {
+    padding: 10px 10px;
+    border-radius: 10px;
+}
+
+.banner-container {
+    text-align: center;
+    background-image: url(./assets/Hero-bg.png);
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-container img {
+    justify-content: center;
+    width: 200px;
+    margin-bottom: 10px;
+}
+
+.banner-container p {
+    color: black;
+    font-size: 20px;
+    font-style: oblique;
+    margin: 10px 0;
+}
+
+.banner-container button {
+    width: fit-content;
+    padding: 12px 16px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+}
+
+.banner-content {
+    font-family: 'Courier New', Courier, monospace;
+    width: 60%;
+    margin: 0 auto;
+}
+
+.banner-mid p {
+    color: black;
+    font-size: 20px;
+    font-style: oblique;
+    margin: 10px 0;
+}
+
+.banner-mid {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    width: 60%;
+    margin: 0px auto;
+}
+.banner-mid{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.banner-mid2 {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    margin: 0px auto;
+    border: 5px solid black;
+    border-radius: 10px;
+}
+.banner-mid2{
+    margin-top: 40px;
+}
+.banner-mid2 p{
+    color: black;
+    font-size: 20px;
+    font-style: oblique;
+    margin: 10px 0px;
+}
+.banner-mid2 button{
+    padding: 10px 10px ;
+    border-radius: 10px;
+}
+.banner-mid3 img{
+    display: flex;
+    margin: 0 auto;
+    text-align: center;
+    justify-content: center;
+    width: 100ch;
+    border: 4px solid rgba(61, 60, 60, 0.457);
+    border-width: 30px;
+    border-radius: 20px;
+    
+}
+.tebile{
+    display: flex;
+    margin: 0%;
+    font-family: "Gill Sans Extrabold", sans-serif;
+}
+.tebile-1 img{
+    margin-bottom: 12px;
+}
+.tebile-2 img{
+    margin-bottom: 12px;
+}
+.tebile-3 img{
+    margin-bottom: 12px;
+}
+.tebile-1{
+   background-color: rgba(238, 233, 206, 0.653);
+   padding: 50px;
+   border-radius: 5%;
+   margin: 2%;
+   border: 5px solid none;
+}
+.tebile-2{
+    text-align: center;
+    background-color: lightcyan;
+    padding: 50px;
+    border-radius: 5%;
+    margin: 2%;
+    border: 5px solid none;
+}
+.tebile-3{
+    background-color: lightgoldenrodyellow;
+    padding: 50px;
+    border-radius: 5%;
+    margin: 2%;
+    border: 5px solid none;
+}
+.tebile h1{
+     text-align: left;
+     margin-bottom: 20px;
+}
+.tebile p{
+    text-align: left;
+    margin-bottom: 20px;
+}
+.tebile h3{
+    text-align: left;
+    margin-bottom: 5px;
+}
+
+.table-img{
+    display: flex;
+    justify-content: start;
+}
+
+.card{
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    text-align-last: left;
+    align-items: center;
+    width: 80%;
+    margin: 20px auto;
+    border: 1px solid rgb(199, 190, 190);
+    border-radius: 10px;
+    padding: 30px 0px;
+    
+}
+.card img{
+    text-align: left;
+    margin-right: 20px;
+}
+.card h1{
+    margin-bottom: 5px;
+    margin-right: 100px;
+    margin-left: 0px auto;
+}
+.footer-container{
+    background-image: url(./assets/handshake.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 80%;
+    margin: 50px auto;
+    height: 300px;
+    object-fit: cover;
+    background-position-y:-150px ;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.footer-container h1{
+    color: white;
+    margin-top: 40px;
+}
+.footer-container p{
+    color: white;
+    margin: 10px 0;
+}
+.footer-container input{
+    text-align: left;
+    color: white;
+    width: 300px;
+    padding: 10px 0;
+    border: none;
+    outline: none;
+    color: black    ;
+}
+.footer-container button{
+    text-align: center;
+    color: white;
+    width: 100px;
+    padding: 5px;
+    color: black  ;
+    font-weight: 800;
+}
+.finising{
+    display: flex;
+    gap: 30px;
+    background-color: cornsilk;
+    padding: 10px;
+    border-color: black;
+    border-radius: 20px;
+    margin-bottom: 5px;
+    justify-content: space-between;
+}
+.finising1 a{
+    margin: 0 10px;
+}
